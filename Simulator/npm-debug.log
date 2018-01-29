@@ -1,0 +1,423 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'hexo-cli', '-g' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'hexo-cli', null ]
+5 verbose cache add name=undefined spec="hexo-cli" args=["hexo-cli",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'hexo-cli',
+6 verbose parsed url   path: 'hexo-cli',
+6 verbose parsed url   href: 'hexo-cli' }
+7 silly lockFile 48f79efe-hexo-cli hexo-cli
+8 verbose lock hexo-cli /home/lb/.npm/48f79efe-hexo-cli.lock
+9 silly lockFile 48f79efe-hexo-cli hexo-cli
+10 silly lockFile 48f79efe-hexo-cli hexo-cli
+11 verbose addNamed [ 'hexo-cli', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile f0acc666-hexo-cli hexo-cli@
+14 verbose lock hexo-cli@ /home/lb/.npm/f0acc666-hexo-cli.lock
+15 silly addNameRange { name: 'hexo-cli', range: '*', hasData: false }
+16 verbose url raw hexo-cli
+17 verbose url resolving [ 'https://registry.npm.taobao.org/', './hexo-cli' ]
+18 verbose url resolved https://registry.npm.taobao.org/hexo-cli
+19 info trying registry request attempt 1 at 16:40:51
+20 verbose etag "58925ad0-651b"
+21 http GET https://registry.npm.taobao.org/hexo-cli
+22 http 200 https://registry.npm.taobao.org/hexo-cli
+23 silly registry.get cb [ 200,
+23 silly registry.get   { date: 'Thu, 02 Mar 2017 08:40:50 GMT',
+23 silly registry.get     'content-type': 'application/json; charset=utf-8',
+23 silly registry.get     'content-length': '27525',
+23 silly registry.get     connection: 'keep-alive',
+23 silly registry.get     'x-current-requests': '1',
+23 silly registry.get     etag: '"6b85-kTUjVAIk30N396OApH48qg"',
+23 silly registry.get     'x-readtime': '43' } ]
+24 silly addNameRange number 2 { name: 'hexo-cli', range: '*', hasData: true }
+25 silly addNameRange versions [ 'hexo-cli',
+25 silly addNameRange   [ '1.0.2',
+25 silly addNameRange     '1.0.1',
+25 silly addNameRange     '1.0.0',
+25 silly addNameRange     '0.2.1',
+25 silly addNameRange     '0.2.0',
+25 silly addNameRange     '0.1.9',
+25 silly addNameRange     '0.1.8',
+25 silly addNameRange     '0.1.7',
+25 silly addNameRange     '0.1.6',
+25 silly addNameRange     '0.1.5',
+25 silly addNameRange     '0.1.4',
+25 silly addNameRange     '0.1.3',
+25 silly addNameRange     '0.1.2',
+25 silly addNameRange     '0.1.1',
+25 silly addNameRange     '0.1.0',
+25 silly addNameRange     '0.0.1' ] ]
+26 verbose addNamed [ 'hexo-cli', '1.0.2' ]
+27 verbose addNamed [ '1.0.2', '1.0.2' ]
+28 silly lockFile f3d0df3c-hexo-cli-1-0-2 hexo-cli@1.0.2
+29 verbose lock hexo-cli@1.0.2 /home/lb/.npm/f3d0df3c-hexo-cli-1-0-2.lock
+30 silly lockFile d4ce4f7d--cli-download-hexo-cli-1-0-2-tgz https://registry.npm.taobao.org/hexo-cli/download/hexo-cli-1.0.2.tgz
+31 verbose lock https://registry.npm.taobao.org/hexo-cli/download/hexo-cli-1.0.2.tgz /home/lb/.npm/d4ce4f7d--cli-download-hexo-cli-1-0-2-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/hexo-cli/download/hexo-cli-1.0.2.tgz',
+32 verbose addRemoteTarball   '8ebcae88cac29254f1e9ac07f8a9f07399a8a1ae' ]
+33 info retry fetch attempt 1 at 16:40:53
+34 verbose fetch to= /home/lb/tmp/npm-16043-PPieb7zB/1488444053303-0.8639657080639154/tmp.tgz
+35 http GET https://registry.npm.taobao.org/hexo-cli/download/hexo-cli-1.0.2.tgz
+36 http 200 https://registry.npm.taobao.org/hexo-cli/download/hexo-cli-1.0.2.tgz
+37 verbose tar unpack /home/lb/tmp/npm-16043-PPieb7zB/1488444053303-0.8639657080639154/tmp.tgz
+38 silly lockFile 30426742-53303-0-8639657080639154-package tar:///home/lb/tmp/npm-16043-PPieb7zB/1488444053303-0.8639657080639154/package
+39 verbose lock tar:///home/lb/tmp/npm-16043-PPieb7zB/1488444053303-0.8639657080639154/package /home/lb/.npm/30426742-53303-0-8639657080639154-package.lock
+40 silly lockFile 1f04252f-53303-0-8639657080639154-tmp-tgz tar:///home/lb/tmp/npm-16043-PPieb7zB/1488444053303-0.8639657080639154/tmp.tgz
+41 verbose lock tar:///home/lb/tmp/npm-16043-PPieb7zB/1488444053303-0.8639657080639154/tmp.tgz /home/lb/.npm/1f04252f-53303-0-8639657080639154-tmp-tgz.lock
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 silly gunzTarPerm extractEntry package.json
+44 silly gunzTarPerm extractEntry .npmignore
+45 silly gunzTarPerm extractEntry README.md
+46 silly gunzTarPerm extractEntry LICENSE
+47 silly gunzTarPerm extractEntry assets/package.json
+48 silly gunzTarPerm extractEntry assets/.npmignore
+49 silly gunzTarPerm extractEntry assets/.gitmodules
+50 silly gunzTarPerm extractEntry assets/_config.yml
+51 silly gunzTarPerm extractEntry assets/scaffolds/draft.md
+52 silly gunzTarPerm extractEntry assets/scaffolds/page.md
+53 silly gunzTarPerm extractEntry assets/scaffolds/post.md
+54 silly gunzTarPerm extractEntry assets/source/_posts/hello-world.md
+55 silly gunzTarPerm extractEntry assets/themes/landscape/package.json
+56 silly gunzTarPerm extractEntry assets/themes/landscape/.npmignore
+57 silly gunzTarPerm extractEntry assets/themes/landscape/README.md
+58 silly gunzTarPerm extractEntry assets/themes/landscape/LICENSE
+59 silly gunzTarPerm extractEntry assets/themes/landscape/Gruntfile.js
+60 silly gunzTarPerm extractEntry assets/themes/landscape/_config.yml
+61 silly gunzTarPerm extractEntry assets/themes/landscape/languages/default.yml
+62 silly gunzTarPerm extractEntry assets/themes/landscape/languages/fr.yml
+63 silly gunzTarPerm extractEntry assets/themes/landscape/languages/nl.yml
+64 silly gunzTarPerm extractEntry assets/themes/landscape/languages/no.yml
+65 silly gunzTarPerm extractEntry assets/themes/landscape/languages/ru.yml
+66 silly gunzTarPerm extractEntry assets/themes/landscape/languages/zh-CN.yml
+67 silly gunzTarPerm extractEntry assets/themes/landscape/languages/zh-TW.yml
+68 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/google-analytics.ejs
+69 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/after-footer.ejs
+70 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/archive.ejs
+71 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/article.ejs
+72 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/footer.ejs
+73 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/archive-post.ejs
+74 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/head.ejs
+75 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/header.ejs
+76 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/mobile-nav.ejs
+77 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/post/category.ejs
+78 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/post/date.ejs
+79 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/post/gallery.ejs
+80 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/post/nav.ejs
+81 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/post/tag.ejs
+82 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/post/title.ejs
+83 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/sidebar.ejs
+84 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_widget/archive.ejs
+85 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_widget/category.ejs
+86 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_widget/recent_posts.ejs
+87 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_widget/tag.ejs
+88 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_widget/tagcloud.ejs
+89 silly gunzTarPerm extractEntry assets/themes/landscape/layout/archive.ejs
+90 silly gunzTarPerm extractEntry assets/themes/landscape/layout/category.ejs
+91 silly gunzTarPerm extractEntry assets/themes/landscape/layout/index.ejs
+92 silly gunzTarPerm extractEntry assets/themes/landscape/layout/layout.ejs
+93 silly gunzTarPerm extractEntry assets/themes/landscape/layout/page.ejs
+94 silly gunzTarPerm extractEntry assets/themes/landscape/layout/post.ejs
+95 silly gunzTarPerm extractEntry assets/themes/landscape/layout/tag.ejs
+96 silly gunzTarPerm extractEntry assets/themes/landscape/scripts/fancybox.js
+97 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_extend.styl
+98 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/archive.styl
+99 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/article.styl
+100 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/comment.styl
+101 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/footer.styl
+102 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/header.styl
+103 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/highlight.styl
+104 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/mobile.styl
+105 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/sidebar-aside.styl
+106 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/sidebar-bottom.styl
+107 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/sidebar.styl
+108 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_util/grid.styl
+109 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_util/mixin.styl
+110 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_variables.styl
+111 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/fonts/FontAwesome.otf
+112 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/fonts/fontawesome-webfont.eot
+113 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/fonts/fontawesome-webfont.svg
+114 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/fonts/fontawesome-webfont.ttf
+115 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/fonts/fontawesome-webfont.woff
+116 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/images/banner.jpg
+117 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/style.styl
+118 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/jquery.fancybox.js
+119 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/jquery.fancybox.pack.js
+120 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/blank.gif
+121 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/fancybox_loading.gif
+122 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/fancybox_loading@2x.gif
+123 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/fancybox_overlay.png
+124 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/fancybox_sprite.png
+125 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/fancybox_sprite@2x.png
+126 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.js
+127 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/helpers/jquery.fancybox-media.js
+128 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.js
+129 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/helpers/fancybox_buttons.png
+130 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.css
+131 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.css
+132 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/jquery.fancybox.css
+133 silly gunzTarPerm extractEntry assets/themes/landscape/source/js/script.js
+134 silly gunzTarPerm extractEntry .editorconfig
+135 silly gunzTarPerm extractEntry .eslintrc
+136 silly gunzTarPerm extractEntry .gitmodules
+137 silly gunzTarPerm extractEntry .eslintignore
+138 silly gunzTarPerm extractEntry bin/hexo
+139 silly gunzTarPerm extractEntry completion/README.md
+140 silly gunzTarPerm extractEntry completion/bash
+141 silly gunzTarPerm extractEntry completion/fish
+142 silly gunzTarPerm extractEntry completion/zsh
+143 silly gunzTarPerm extractEntry lib/context.js
+144 silly gunzTarPerm extractEntry lib/find_pkg.js
+145 silly gunzTarPerm extractEntry lib/goodbye.js
+146 silly gunzTarPerm extractEntry lib/hexo.js
+147 silly gunzTarPerm extractEntry lib/console/help.js
+148 silly gunzTarPerm extractEntry lib/console/index.js
+149 silly gunzTarPerm extractEntry lib/console/init.js
+150 silly gunzTarPerm extractEntry lib/console/version.js
+151 silly gunzTarPerm extractEntry lib/extend/console.js
+152 silly gunzTarPerm extractEntry .jscsrc
+153 silly lockFile 30426742-53303-0-8639657080639154-package tar:///home/lb/tmp/npm-16043-PPieb7zB/1488444053303-0.8639657080639154/package
+154 silly lockFile 30426742-53303-0-8639657080639154-package tar:///home/lb/tmp/npm-16043-PPieb7zB/1488444053303-0.8639657080639154/package
+155 silly lockFile 1f04252f-53303-0-8639657080639154-tmp-tgz tar:///home/lb/tmp/npm-16043-PPieb7zB/1488444053303-0.8639657080639154/tmp.tgz
+156 silly lockFile 1f04252f-53303-0-8639657080639154-tmp-tgz tar:///home/lb/tmp/npm-16043-PPieb7zB/1488444053303-0.8639657080639154/tmp.tgz
+157 verbose tar pack [ '/home/lb/.npm/hexo-cli/1.0.2/package.tgz',
+157 verbose tar pack   '/home/lb/tmp/npm-16043-PPieb7zB/1488444053303-0.8639657080639154/package' ]
+158 verbose tarball /home/lb/.npm/hexo-cli/1.0.2/package.tgz
+159 verbose folder /home/lb/tmp/npm-16043-PPieb7zB/1488444053303-0.8639657080639154/package
+160 silly lockFile 30426742-53303-0-8639657080639154-package tar:///home/lb/tmp/npm-16043-PPieb7zB/1488444053303-0.8639657080639154/package
+161 verbose lock tar:///home/lb/tmp/npm-16043-PPieb7zB/1488444053303-0.8639657080639154/package /home/lb/.npm/30426742-53303-0-8639657080639154-package.lock
+162 silly lockFile 2efa5a18-b-npm-hexo-cli-1-0-2-package-tgz tar:///home/lb/.npm/hexo-cli/1.0.2/package.tgz
+163 verbose lock tar:///home/lb/.npm/hexo-cli/1.0.2/package.tgz /home/lb/.npm/2efa5a18-b-npm-hexo-cli-1-0-2-package-tgz.lock
+164 silly lockFile 30426742-53303-0-8639657080639154-package tar:///home/lb/tmp/npm-16043-PPieb7zB/1488444053303-0.8639657080639154/package
+165 silly lockFile 30426742-53303-0-8639657080639154-package tar:///home/lb/tmp/npm-16043-PPieb7zB/1488444053303-0.8639657080639154/package
+166 silly lockFile 2efa5a18-b-npm-hexo-cli-1-0-2-package-tgz tar:///home/lb/.npm/hexo-cli/1.0.2/package.tgz
+167 silly lockFile 2efa5a18-b-npm-hexo-cli-1-0-2-package-tgz tar:///home/lb/.npm/hexo-cli/1.0.2/package.tgz
+168 silly lockFile 5e98ab9f-me-lb-npm-hexo-cli-1-0-2-package /home/lb/.npm/hexo-cli/1.0.2/package
+169 verbose lock /home/lb/.npm/hexo-cli/1.0.2/package /home/lb/.npm/5e98ab9f-me-lb-npm-hexo-cli-1-0-2-package.lock
+170 silly lockFile 5e98ab9f-me-lb-npm-hexo-cli-1-0-2-package /home/lb/.npm/hexo-cli/1.0.2/package
+171 silly lockFile 5e98ab9f-me-lb-npm-hexo-cli-1-0-2-package /home/lb/.npm/hexo-cli/1.0.2/package
+172 verbose tar unpack /home/lb/.npm/hexo-cli/1.0.2/package.tgz
+173 silly lockFile 377dc3c8-me-lb-npm-hexo-cli-1-0-2-package tar:///home/lb/.npm/hexo-cli/1.0.2/package
+174 verbose lock tar:///home/lb/.npm/hexo-cli/1.0.2/package /home/lb/.npm/377dc3c8-me-lb-npm-hexo-cli-1-0-2-package.lock
+175 silly lockFile 2efa5a18-b-npm-hexo-cli-1-0-2-package-tgz tar:///home/lb/.npm/hexo-cli/1.0.2/package.tgz
+176 verbose lock tar:///home/lb/.npm/hexo-cli/1.0.2/package.tgz /home/lb/.npm/2efa5a18-b-npm-hexo-cli-1-0-2-package-tgz.lock
+177 silly gunzTarPerm modes [ '755', '644' ]
+178 silly gunzTarPerm extractEntry package.json
+179 silly gunzTarPerm extractEntry .npmignore
+180 silly gunzTarPerm extractEntry README.md
+181 silly gunzTarPerm extractEntry LICENSE
+182 silly gunzTarPerm extractEntry .jscsrc
+183 silly gunzTarPerm extractEntry .gitmodules
+184 silly gunzTarPerm extractEntry .eslintignore
+185 silly gunzTarPerm extractEntry .eslintrc
+186 silly gunzTarPerm extractEntry assets/package.json
+187 silly gunzTarPerm extractEntry assets/.npmignore
+188 silly gunzTarPerm extractEntry assets/.gitmodules
+189 silly gunzTarPerm extractEntry assets/_config.yml
+190 silly gunzTarPerm extractEntry assets/scaffolds/draft.md
+191 silly gunzTarPerm extractEntry assets/scaffolds/page.md
+192 silly gunzTarPerm extractEntry assets/scaffolds/post.md
+193 silly gunzTarPerm extractEntry assets/source/_posts/hello-world.md
+194 silly gunzTarPerm extractEntry assets/themes/landscape/package.json
+195 silly gunzTarPerm extractEntry assets/themes/landscape/.npmignore
+196 silly gunzTarPerm extractEntry assets/themes/landscape/README.md
+197 silly gunzTarPerm extractEntry assets/themes/landscape/LICENSE
+198 silly gunzTarPerm extractEntry assets/themes/landscape/Gruntfile.js
+199 silly gunzTarPerm extractEntry assets/themes/landscape/_config.yml
+200 silly gunzTarPerm extractEntry assets/themes/landscape/languages/default.yml
+201 silly gunzTarPerm extractEntry assets/themes/landscape/languages/fr.yml
+202 silly gunzTarPerm extractEntry assets/themes/landscape/languages/nl.yml
+203 silly gunzTarPerm extractEntry assets/themes/landscape/languages/no.yml
+204 silly gunzTarPerm extractEntry assets/themes/landscape/languages/ru.yml
+205 silly gunzTarPerm extractEntry assets/themes/landscape/languages/zh-CN.yml
+206 silly gunzTarPerm extractEntry assets/themes/landscape/languages/zh-TW.yml
+207 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/google-analytics.ejs
+208 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/after-footer.ejs
+209 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/archive.ejs
+210 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/article.ejs
+211 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/footer.ejs
+212 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/archive-post.ejs
+213 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/head.ejs
+214 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/header.ejs
+215 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/mobile-nav.ejs
+216 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/post/category.ejs
+217 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/post/date.ejs
+218 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/post/gallery.ejs
+219 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/post/nav.ejs
+220 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/post/tag.ejs
+221 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/post/title.ejs
+222 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_partial/sidebar.ejs
+223 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_widget/archive.ejs
+224 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_widget/category.ejs
+225 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_widget/recent_posts.ejs
+226 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_widget/tag.ejs
+227 silly gunzTarPerm extractEntry assets/themes/landscape/layout/_widget/tagcloud.ejs
+228 silly gunzTarPerm extractEntry assets/themes/landscape/layout/archive.ejs
+229 silly gunzTarPerm extractEntry assets/themes/landscape/layout/category.ejs
+230 silly gunzTarPerm extractEntry assets/themes/landscape/layout/index.ejs
+231 silly gunzTarPerm extractEntry assets/themes/landscape/layout/layout.ejs
+232 silly gunzTarPerm extractEntry assets/themes/landscape/layout/page.ejs
+233 silly gunzTarPerm extractEntry assets/themes/landscape/layout/post.ejs
+234 silly gunzTarPerm extractEntry assets/themes/landscape/layout/tag.ejs
+235 silly gunzTarPerm extractEntry assets/themes/landscape/scripts/fancybox.js
+236 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_extend.styl
+237 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/archive.styl
+238 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/article.styl
+239 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/comment.styl
+240 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/footer.styl
+241 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/header.styl
+242 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/highlight.styl
+243 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/mobile.styl
+244 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/sidebar-aside.styl
+245 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/sidebar-bottom.styl
+246 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_partial/sidebar.styl
+247 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_util/grid.styl
+248 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_util/mixin.styl
+249 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/_variables.styl
+250 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/fonts/FontAwesome.otf
+251 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/fonts/fontawesome-webfont.eot
+252 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/fonts/fontawesome-webfont.svg
+253 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/fonts/fontawesome-webfont.ttf
+254 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/fonts/fontawesome-webfont.woff
+255 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/images/banner.jpg
+256 silly gunzTarPerm extractEntry assets/themes/landscape/source/css/style.styl
+257 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/jquery.fancybox.js
+258 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/jquery.fancybox.pack.js
+259 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/blank.gif
+260 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/fancybox_loading.gif
+261 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/fancybox_loading@2x.gif
+262 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/fancybox_overlay.png
+263 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/fancybox_sprite.png
+264 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/fancybox_sprite@2x.png
+265 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.js
+266 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/helpers/jquery.fancybox-media.js
+267 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.js
+268 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/helpers/fancybox_buttons.png
+269 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.css
+270 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.css
+271 silly gunzTarPerm extractEntry assets/themes/landscape/source/fancybox/jquery.fancybox.css
+272 silly gunzTarPerm extractEntry assets/themes/landscape/source/js/script.js
+273 silly gunzTarPerm extractEntry bin/hexo
+274 silly gunzTarPerm extractEntry completion/README.md
+275 silly gunzTarPerm extractEntry completion/bash
+276 silly gunzTarPerm extractEntry completion/fish
+277 silly gunzTarPerm extractEntry completion/zsh
+278 silly gunzTarPerm extractEntry lib/context.js
+279 silly gunzTarPerm extractEntry lib/find_pkg.js
+280 silly gunzTarPerm extractEntry lib/goodbye.js
+281 silly gunzTarPerm extractEntry lib/hexo.js
+282 silly gunzTarPerm extractEntry lib/console/help.js
+283 silly gunzTarPerm extractEntry lib/console/index.js
+284 silly gunzTarPerm extractEntry lib/console/init.js
+285 silly gunzTarPerm extractEntry lib/console/version.js
+286 silly gunzTarPerm extractEntry lib/extend/console.js
+287 silly gunzTarPerm extractEntry .editorconfig
+288 silly lockFile 377dc3c8-me-lb-npm-hexo-cli-1-0-2-package tar:///home/lb/.npm/hexo-cli/1.0.2/package
+289 silly lockFile 377dc3c8-me-lb-npm-hexo-cli-1-0-2-package tar:///home/lb/.npm/hexo-cli/1.0.2/package
+290 silly lockFile 2efa5a18-b-npm-hexo-cli-1-0-2-package-tgz tar:///home/lb/.npm/hexo-cli/1.0.2/package.tgz
+291 silly lockFile 2efa5a18-b-npm-hexo-cli-1-0-2-package-tgz tar:///home/lb/.npm/hexo-cli/1.0.2/package.tgz
+292 verbose chmod /home/lb/.npm/hexo-cli/1.0.2/package.tgz 644
+293 verbose chown /home/lb/.npm/hexo-cli/1.0.2/package.tgz [ 1000, 1000 ]
+294 silly lockFile d4ce4f7d--cli-download-hexo-cli-1-0-2-tgz https://registry.npm.taobao.org/hexo-cli/download/hexo-cli-1.0.2.tgz
+295 silly lockFile d4ce4f7d--cli-download-hexo-cli-1-0-2-tgz https://registry.npm.taobao.org/hexo-cli/download/hexo-cli-1.0.2.tgz
+296 silly lockFile f3d0df3c-hexo-cli-1-0-2 hexo-cli@1.0.2
+297 silly lockFile f3d0df3c-hexo-cli-1-0-2 hexo-cli@1.0.2
+298 silly lockFile f0acc666-hexo-cli hexo-cli@
+299 silly lockFile f0acc666-hexo-cli hexo-cli@
+300 silly resolved [ { name: 'hexo-cli',
+300 silly resolved     version: '1.0.2',
+300 silly resolved     description: 'Command line interface for Hexo',
+300 silly resolved     main: 'lib/hexo',
+300 silly resolved     bin: { hexo: './bin/hexo' },
+300 silly resolved     scripts:
+300 silly resolved      { eslint: 'eslint .',
+300 silly resolved        jscs: 'jscs .',
+300 silly resolved        test: 'mocha test/index.js',
+300 silly resolved        'test-cov': 'istanbul cover --print both _mocha -- test/index.js' },
+300 silly resolved     directories: { lib: './lib', bin: './bin' },
+300 silly resolved     repository: { type: 'git', url: 'git://github.com/hexojs/hexo-cli' },
+300 silly resolved     homepage: 'https://hexo.io/',
+300 silly resolved     keywords: [ 'website', 'blog', 'cms', 'framework', 'hexo', 'cli' ],
+300 silly resolved     author:
+300 silly resolved      { name: 'Tommy Chen',
+300 silly resolved        email: 'tommy351@gmail.com',
+300 silly resolved        url: 'http://zespia.tw' },
+300 silly resolved     license: 'MIT',
+300 silly resolved     dependencies:
+300 silly resolved      { abbrev: '^1.0.7',
+300 silly resolved        bluebird: '^3.4.0',
+300 silly resolved        chalk: '^1.1.3',
+300 silly resolved        'hexo-fs': '^0.1.5',
+300 silly resolved        'hexo-log': '^0.1.2',
+300 silly resolved        'hexo-util': '^0.6.0',
+300 silly resolved        minimist: '^1.2.0',
+300 silly resolved        'object-assign': '^4.1.0',
+300 silly resolved        tildify: '^1.2.0' },
+300 silly resolved     devDependencies:
+300 silly resolved      { chai: '^3.5.0',
+300 silly resolved        'chai-as-promised': '^5.3.0',
+300 silly resolved        eslint: '^2.12.0',
+300 silly resolved        'eslint-config-hexo': '^1.0.3',
+300 silly resolved        'hexo-renderer-marked': '^0.2.10',
+300 silly resolved        istanbul: '^0.4.3',
+300 silly resolved        jscs: '^3.0.4',
+300 silly resolved        'jscs-preset-hexo': '^1.0.1',
+300 silly resolved        mocha: '^2.5.3',
+300 silly resolved        proxyquire: '^1.7.9',
+300 silly resolved        rewire: '^2.5.1',
+300 silly resolved        sinon: '^1.17.4' },
+300 silly resolved     readme: '# hexo-cli\n\n[![Build Status](https://travis-ci.org/hexojs/hexo-cli.svg?branch=master)](https://travis-ci.org/hexojs/hexo-cli)  [![NPM version](https://badge.fury.io/js/hexo-cli.svg)](http://badge.fury.io/js/hexo-cli) [![Coverage Status](https://coveralls.io/repos/hexojs/hexo-cli/badge.svg?branch=master)](https://coveralls.io/r/hexojs/hexo-cli?branch=master) [![Build status](https://ci.appveyor.com/api/projects/status/aa44wp75752x1t47/branch/master?svg=true)](https://ci.appveyor.com/project/tommy351/hexo-cli/branch/master)\n\nCommand line interface for Hexo.\n\n## Installation\n\n``` bash\n$ npm install hexo-cli -g\n```\n\n## License\n\nMIT',
+300 silly resolved     readmeFilename: 'README.md',
+300 silly resolved     bugs: { url: 'https://github.com/hexojs/hexo-cli/issues' },
+300 silly resolved     _id: 'hexo-cli@1.0.2',
+300 silly resolved     dist: { shasum: '8e4e7df08549da362b1564f17d212cb0a0a5c355' },
+300 silly resolved     _from: 'hexo-cli@',
+300 silly resolved     _resolved: 'https://registry.npm.taobao.org/hexo-cli/download/hexo-cli-1.0.2.tgz' } ]
+301 info install hexo-cli@1.0.2 into /usr/local/lib
+302 info installOne hexo-cli@1.0.2
+303 info /usr/local/lib/node_modules/hexo-cli unbuild
+304 verbose tar unpack /home/lb/.npm/hexo-cli/1.0.2/package.tgz
+305 silly lockFile 66c81d99--local-lib-node-modules-hexo-cli tar:///usr/local/lib/node_modules/hexo-cli
+306 verbose lock tar:///usr/local/lib/node_modules/hexo-cli /home/lb/.npm/66c81d99--local-lib-node-modules-hexo-cli.lock
+307 silly lockFile 2efa5a18-b-npm-hexo-cli-1-0-2-package-tgz tar:///home/lb/.npm/hexo-cli/1.0.2/package.tgz
+308 verbose lock tar:///home/lb/.npm/hexo-cli/1.0.2/package.tgz /home/lb/.npm/2efa5a18-b-npm-hexo-cli-1-0-2-package-tgz.lock
+309 silly gunzTarPerm modes [ '755', '644' ]
+310 error Error: EACCES, mkdir '/usr/local/lib/node_modules'
+310 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules']
+310 error   errno: 3,
+310 error   code: 'EACCES',
+310 error   path: '/usr/local/lib/node_modules',
+310 error   fstream_type: 'Directory',
+310 error   fstream_path: '/usr/local/lib/node_modules/hexo-cli',
+310 error   fstream_class: 'DirWriter',
+310 error   fstream_stack:
+310 error    [ '/usr/lib/nodejs/fstream/lib/writer.js:171:23',
+310 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+310 error      'Object.oncomplete (fs.js:107:15)' ] }
+311 error Please try running this command again as root/Administrator.
+312 error System Linux 3.4.0+
+313 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "hexo-cli" "-g"
+314 error cwd /mnt/c/Users/bingl/Desktop/simulate tools/Simulator
+315 error node -v v0.10.25
+316 error npm -v 1.3.10
+317 error path /usr/local/lib/node_modules
+318 error fstream_path /usr/local/lib/node_modules/hexo-cli
+319 error fstream_type Directory
+320 error fstream_class DirWriter
+321 error code EACCES
+322 error errno 3
+323 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules'
+324 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:171:23
+324 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+324 error fstream_stack Object.oncomplete (fs.js:107:15)
+325 verbose exit [ 3, true ]

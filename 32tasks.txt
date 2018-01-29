@@ -1,0 +1,11 @@
+32 tasks
+
+running time: 5384
+communication cost:92211.4
+
+running time: 5423
+communication cost:28875.7
+
+
+running time: 5445
+communication cost:31865.2

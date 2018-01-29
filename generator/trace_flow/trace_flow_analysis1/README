@@ -1,0 +1,7 @@
+the run file flow_trace_anal7 compute the communication cost of maping 20 cores in 8*8 tiles automaticaly
+the run file flow_trace_anal11 compute the communication cost of maping 16*4 and 32*2 cores in 8*8 tiles automaticaly 
+the result of flow_trace_anal7 is put into the folder output7
+the result of flow_trace_anal11 is put into the folder output11
+run the do.sh for running all of the benchmarks:$sh do.sh
+do.sh is a shell file
+(ting.fei) 
