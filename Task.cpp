@@ -38,7 +38,7 @@ void InvokedTask::recognize()
 	}
 }
 
-void InvokedTask::nRound(int es, int nT) {
+void InvokedTask::nRound(double es, int nT) {
 	if (executionVolumeFinished > executionVolume) {
 		executionVolumeFinished = executionVolume;
 		state = tranfering;
@@ -69,7 +69,7 @@ void InvokedTask::nRound(int es, int nT) {
 		}
 		break;
 	case executing:
-		if (executionVolumeFinished == executionVolume) {
+		if (executionVolumeFinished >= executionVolume) {
 			/*parent start to send packets*/
 			state = tranfering;
 		}
@@ -170,7 +170,7 @@ void InvokedTask::setState(State s)
 
 
 
-int Task::getExecutionVolume() {
+double Task::getExecutionVolume() {
 	return executionVolume;
 }
 int Task::getApplicationId() {
@@ -221,12 +221,12 @@ vector<int> InvokedTask::getChildren()
 	return children;
 }
 
-int InvokedTask::getExecutionVolume()
+double InvokedTask::getExecutionVolume()
 {
 	return executionVolume;
 }
 
-int InvokedTask::getExecutionVolumeFinished()
+double InvokedTask::getExecutionVolumeFinished()
 {
 	return executionVolumeFinished;
 }

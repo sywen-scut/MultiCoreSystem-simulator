@@ -8,7 +8,7 @@
 using namespace std;
 class Task {
 private:
-	int executionVolume;
+	double executionVolume;
 	vector<double> withNeibors;// >0, parent;
 	
 	int id;
@@ -17,7 +17,7 @@ private:
 public:
 	Task(int ev, int aId, int tid);
 	Task(int ev, int aId, int tid,vector<double>ns);
-	int getExecutionVolume();
+	double getExecutionVolume();
 	int getApplicationId();
 	int getId();
 	vector<double> getWithNeibors();
@@ -28,7 +28,7 @@ public:
 
 class InvokedTask {
 private:
-	int executionVolume;
+	double executionVolume;
 	
 	vector<double> withNeibors;
 	int id;
@@ -42,7 +42,7 @@ private:
 	void recognize();
 public:
 	vector<double> dataProcessed;
-	int executionVolumeFinished;
+	double executionVolumeFinished;
 	InvokedTask(Task task) {
 		executionVolume = task.getExecutionVolume();
 		withNeibors = task.getWithNeibors();
@@ -56,7 +56,7 @@ public:
 	}
 
 	
-	void nRound(int es, int nT);
+	void nRound(double es, int nT);
 	int predictExecutionTime(int execS);
 	vector<double> unreceivedData();
 	vector<double> untransferedData();
@@ -76,6 +76,6 @@ public:
 	int getId();
 	vector<int> getParents();
 	vector<int> getChildren();
-	int getExecutionVolume();
-	int getExecutionVolumeFinished();
+	double getExecutionVolume();
+	double getExecutionVolumeFinished();
 };

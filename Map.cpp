@@ -59,7 +59,7 @@
 		for(int k = 0; k < length; k++) {
 				for (int j = 0; j < width; j++) {
 					Vertex temp(k, j);
-					cout << cores.at(temp.toIndex()).getTaskId() << " ";
+					cout << cores.at(temp.toIndex()).getApplicationId() << " ";
 				}
 			cout << endl;
 		}

@@ -1,0 +1,103 @@
+/home/chris/simulator/app/wen/test1.txt
+/home/chris/simulator/app/wen/test2.txt
+/home/chris/simulator/app/wen/test3.txt
+/home/chris/simulator/app/wen/test4.txt
+/home/chris/simulator/app/wen/test5.txt
+/home/chris/simulator/app/wen/test6.txt
+Output: /home/chris/simulator/Ptrace/mixture.ptrace
+start running
+
+1 1 1 1 1 1 1 1 
+1 1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+
+1 1 1 1 1 1 1 1 
+1 1 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 
+2 2 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+
+1 1 1 1 1 1 1 1 
+1 1 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 
+2 2 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 
+3 3 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+
+1 1 1 1 1 1 1 1 
+1 1 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 
+2 2 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 
+3 3 4 4 4 4 4 4 
+4 4 4 4 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+APP 2 finished
+ arrive at 1000 finished at 3138
+ waiting time: 0
+ execution time: 2138
+APP 1 finished
+ arrive at 0 finished at 3287
+ waiting time: 0
+ execution time: 3287
+
+5 5 5 5 5 5 5 5 
+5 5 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 
+3 3 4 4 4 4 4 4 
+4 4 4 4 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+
+5 5 5 5 5 5 5 5 
+5 5 6 6 6 6 6 6 
+6 6 6 6 6 6 6 6 
+6 6 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 
+3 3 4 4 4 4 4 4 
+4 4 4 4 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+APP 4 finished
+ arrive at 3000 finished at 6720
+ waiting time: 0
+ execution time: 3720
+APP 6 finished
+ arrive at 5000 finished at 7138
+ waiting time: 0
+ execution time: 2138
+APP 3 finished
+ arrive at 2000 finished at 11003
+ waiting time: 0
+ execution time: 9003
+APP 5 finished
+ arrive at 4000 finished at 13800
+ waiting time: 0
+ execution time: 9800
+total running time: 13801
+
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+

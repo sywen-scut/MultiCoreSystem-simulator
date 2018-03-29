@@ -1,5 +1,4 @@
 #pragma once
-#include "Application.h"
 #include "Map.h"
 #include "Clock.h"
 #include "Region.h"
@@ -16,6 +15,8 @@ private:
 	State state;
 	int startTime;
 	int finishTime;
+	int migratetimes = 0;
+	int migrate_distance = 0;
 	
 public:
 	Region region;
@@ -29,17 +30,17 @@ public:
 	the action need to abort
 	otherwise, it starts successfully
 	*/
-	bool startRunning(Map* map,int type);
+	bool startRunning(Map* map,int type, Vertex point);
 	
-	Vertex book(Map map, int bubbleNum = 0,vector<Vertex> x = vector<Vertex>(0));// find the left top corner vertex
-	bool mapping(Map* map,int type);
+	// Vertex book(Map map, int bubbleNum = 0,vector<Vertex> x = vector<Vertex>(0));// find the left top corner vertex
+	bool mapping(Map* map,int type, Vertex point);
 	/*
 	the logic here is that,
 	true means the map has changed
 	false means the map is untouched(clean)
 	*/
 	void finish(Map* map);
-	bool ifFinished(vector<InvokedTask> tasks)
+	bool ifFinished(vector<InvokedTask> tasks);
 	void unhookFromMap(Map* map);
 	void nRound(Map* map);
 	bool hasFinished();
@@ -55,7 +56,13 @@ public:
 	bool setRegion(Vertex point, int region_width, int region_length);
 	bool squareMapping(Map* map, Vertex point);
 	bool chessMapping(Map* map, Vertex point);
-	bool nonContigousMapping(Map* map)
+	bool nonContigousMapping(Map* map);
+	bool withBubbleMapping(Map* map, Vertex point);
+	/*Migration method*/
+	bool squareMigration(Map* map);
+	bool chessMigration(Map* map);
+	bool globalColdest(Map* map, vector<int> hot_tid);
+	bool localColdest(Map* map, vector<int> hot_tid);
 
 
 

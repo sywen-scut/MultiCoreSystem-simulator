@@ -1,0 +1,109 @@
+/home/chris/simulator/app/wen/test1.txt
+/home/chris/simulator/app/wen/test2.txt
+/home/chris/simulator/app/wen/test3.txt
+/home/chris/simulator/app/wen/test4.txt
+/home/chris/simulator/app/wen/test5.txt
+/home/chris/simulator/app/wen/test6.txt
+Output: /home/chris/simulator/Ptrace/mixture.ptrace
+start running
+Chessmap: 8*3
+
+1 -1 1 -1 1 -1 1 -1 
+-1 1 -1 1 -1 1 -1 1 
+1 -1 1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+Chessmap: 8*4
+
+1 -1 1 -1 1 -1 1 -1 
+-1 1 -1 1 -1 1 -1 1 
+1 -1 1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+2 -1 2 -1 2 -1 2 -1 
+-1 2 -1 2 -1 2 -1 2 
+2 -1 2 -1 2 -1 2 -1 
+-1 2 -1 2 -1 2 -1 2 
+
+APP 2 finished
+ arrive at 1000 finished at 3487
+ waiting time: 0
+ execution time: 2487
+Chessmap: 8*4
+
+1 -1 1 -1 1 -1 1 -1 
+-1 1 -1 1 -1 1 -1 1 
+1 -1 1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+3 -1 3 -1 3 -1 3 -1 
+-1 3 -1 3 -1 3 -1 3 
+3 -1 3 -1 3 -1 3 -1 
+-1 3 -1 3 -1 3 -1 3 
+
+APP 1 finished
+ arrive at 0 finished at 3669
+ waiting time: 0
+ execution time: 3669
+Chessmap: 8*3
+
+4 -1 4 -1 4 -1 4 -1 
+-1 4 -1 4 -1 4 -1 4 
+4 -1 4 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+3 -1 3 -1 3 -1 3 -1 
+-1 3 -1 3 -1 3 -1 3 
+3 -1 3 -1 3 -1 3 -1 
+-1 3 -1 3 -1 3 -1 3 
+
+APP 4 finished
+ arrive at 3000 finished at 8518
+ waiting time: 670
+ execution time: 4848
+Chessmap: 8*3
+
+5 -1 5 -1 5 -1 5 -1 
+-1 5 -1 5 -1 5 -1 5 
+5 -1 5 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+3 -1 3 -1 3 -1 3 -1 
+-1 3 -1 3 -1 3 -1 3 
+3 -1 3 -1 3 -1 3 -1 
+-1 3 -1 3 -1 3 -1 3 
+
+APP 3 finished
+ arrive at 2000 finished at 12743
+ waiting time: 1488
+ execution time: 9255
+Chessmap: 8*4
+
+5 -1 5 -1 5 -1 5 -1 
+-1 5 -1 5 -1 5 -1 5 
+5 -1 5 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+6 -1 6 -1 6 -1 6 -1 
+-1 6 -1 6 -1 6 -1 6 
+6 -1 6 -1 6 -1 6 -1 
+-1 6 -1 6 -1 6 -1 6 
+
+APP 6 finished
+ arrive at 5000 finished at 15231
+ waiting time: 7744
+ execution time: 2487
+APP 5 finished
+ arrive at 4000 finished at 19220
+ waiting time: 4519
+ execution time: 10701
+total running time: 19221
+
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+

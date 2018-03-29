@@ -55,7 +55,7 @@ vector<InvokedTask> squareMigration(Map* map, vector<InvokedTask> tasks){
 	
 	
 	int current_location = tasks[0].getLandlord().l;
-	/*turn of active core*/
+	/*turn off active core*/
 	for (int i = 0; i < tasks.size();i++) {
 				if (tasks[i].checkState() != unmapped) 
 		map->turnOffCore(tasks[i].getLandlord());
