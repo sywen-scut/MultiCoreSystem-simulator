@@ -1,0 +1,449 @@
+/home/chris/simulator/app/arrivalrate/a250/t1.txt
+/home/chris/simulator/app/arrivalrate/a250/t2.txt
+/home/chris/simulator/app/arrivalrate/a250/t3.txt
+/home/chris/simulator/app/arrivalrate/a250/t4.txt
+/home/chris/simulator/app/arrivalrate/a250/t5.txt
+/home/chris/simulator/app/arrivalrate/a250/t6.txt
+/home/chris/simulator/app/arrivalrate/a250/t7.txt
+Output: /home/chris/simulator/Ptrace/mixture1.ptrace
+start running
+squaremap: 3*3
+time : 0
+
+1 1 1 -1 -1 -1 -1 -1 
+1 1 1 -1 -1 -1 -1 -1 
+1 1 1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+squaremap: 3*3
+time : 250
+
+1 1 1 -1 2 2 2 -1 
+1 1 1 -1 2 2 2 -1 
+1 1 1 -1 2 2 2 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 500
+1	
+1	
+do Square Migration for app1
+migrate succcessfully
+
+-1 -1 -1 -1 2 2 2 -1 
+-1 -1 -1 -1 2 2 2 -1 
+-1 -1 -1 -1 2 2 2 -1 
+1 1 1 -1 -1 -1 -1 -1 
+1 1 1 -1 -1 -1 -1 -1 
+1 1 1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 1000
+1	1	
+1	
+do Square Migration for app1
+migrate succcessfully
+
+1 1 1 -1 2 2 2 -1 
+1 1 1 -1 2 2 2 -1 
+1 1 1 -1 2 2 2 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 1500
+2	2	1	2	1	1	
+1	2	
+do Square Migration for app1
+migrate succcessfully
+do Square Migration for app2
+migrate succcessfully
+
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+1 1 1 -1 2 2 2 -1 
+1 1 1 -1 2 2 2 -1 
+1 1 1 -1 2 2 2 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+APP 1 finished
+ arrive at 0 finished at 1601
+ waiting time: 0
+ execution time: 1601
+migratetimes: 3
+migrate_distance: 0
+squaremap: 3*3
+time : 1602
+
+3 3 3 -1 -1 -1 -1 -1 
+3 3 3 -1 -1 -1 -1 -1 
+3 3 3 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 2 2 2 -1 
+-1 -1 -1 -1 2 2 2 -1 
+-1 -1 -1 -1 2 2 2 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 2000
+3	2	
+2	3	
+do Square Migration for app2
+migrate succcessfully
+do Square Migration for app3
+migrate succcessfully
+
+-1 -1 -1 -1 2 2 2 -1 
+-1 -1 -1 -1 2 2 2 -1 
+-1 -1 -1 -1 2 2 2 -1 
+3 3 3 -1 -1 -1 -1 -1 
+3 3 3 -1 -1 -1 -1 -1 
+3 3 3 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 2500
+2	2	
+2	
+do Square Migration for app2
+migrate succcessfully
+
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+3 3 3 -1 2 2 2 -1 
+3 3 3 -1 2 2 2 -1 
+3 3 3 -1 2 2 2 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+APP 2 finished
+ arrive at 250 finished at 2651
+ waiting time: 0
+ execution time: 2401
+migratetimes: 3
+migrate_distance: 0
+squaremap: 3*3
+time : 2652
+
+-1 -1 -1 -1 4 4 4 -1 
+-1 -1 -1 -1 4 4 4 -1 
+-1 -1 -1 -1 4 4 4 -1 
+3 3 3 -1 -1 -1 -1 -1 
+3 3 3 -1 -1 -1 -1 -1 
+3 3 3 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 3000
+4	3	
+3	4	
+do Square Migration for app3
+migrate succcessfully
+do Square Migration for app4
+migrate succcessfully
+
+3 3 3 -1 -1 -1 -1 -1 
+3 3 3 -1 -1 -1 -1 -1 
+3 3 3 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 4 4 4 -1 
+-1 -1 -1 -1 4 4 4 -1 
+-1 -1 -1 -1 4 4 4 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 3500
+3	3	3	
+3	
+do Square Migration for app3
+migrate succcessfully
+
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+3 3 3 -1 4 4 4 -1 
+3 3 3 -1 4 4 4 -1 
+3 3 3 -1 4 4 4 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 4000
+4	4	4	3	
+3	4	
+do Square Migration for app3
+migrate succcessfully
+do Square Migration for app4
+migrate succcessfully
+
+3 3 3 -1 4 4 4 -1 
+3 3 3 -1 4 4 4 -1 
+3 3 3 -1 4 4 4 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 4500
+4	4	3	3	4	
+3	4	
+do Square Migration for app3
+migrate succcessfully
+do Square Migration for app4
+migrate succcessfully
+
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+3 3 3 -1 4 4 4 -1 
+3 3 3 -1 4 4 4 -1 
+3 3 3 -1 4 4 4 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+APP 3 finished
+ arrive at 500 finished at 4604
+ waiting time: 1102
+ execution time: 3002
+migratetimes: 5
+migrate_distance: 0
+squaremap: 3*3
+time : 4605
+
+5 5 5 -1 -1 -1 -1 -1 
+5 5 5 -1 -1 -1 -1 -1 
+5 5 5 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 4 4 4 -1 
+-1 -1 -1 -1 4 4 4 -1 
+-1 -1 -1 -1 4 4 4 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 5000
+5	4	
+4	5	
+do Square Migration for app4
+migrate succcessfully
+do Square Migration for app5
+migrate succcessfully
+
+-1 -1 -1 -1 4 4 4 -1 
+-1 -1 -1 -1 4 4 4 -1 
+-1 -1 -1 -1 4 4 4 -1 
+5 5 5 -1 -1 -1 -1 -1 
+5 5 5 -1 -1 -1 -1 -1 
+5 5 5 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+APP 4 finished
+ arrive at 750 finished at 5053
+ waiting time: 1902
+ execution time: 2401
+migratetimes: 4
+migrate_distance: 0
+squaremap: 3*3
+time : 5054
+
+-1 -1 -1 -1 6 6 6 -1 
+-1 -1 -1 -1 6 6 6 -1 
+-1 -1 -1 -1 6 6 6 -1 
+5 5 5 -1 -1 -1 -1 -1 
+5 5 5 -1 -1 -1 -1 -1 
+5 5 5 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 5500
+6	
+6	
+do Square Migration for app6
+migrate succcessfully
+
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+5 5 5 -1 6 6 6 -1 
+5 5 5 -1 6 6 6 -1 
+5 5 5 -1 6 6 6 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 6000
+5	6	6	
+5	6	
+do Square Migration for app5
+migrate succcessfully
+do Square Migration for app6
+migrate succcessfully
+
+5 5 5 -1 6 6 6 -1 
+5 5 5 -1 6 6 6 -1 
+5 5 5 -1 6 6 6 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 6500
+5	5	5	6	6	6	6	
+5	6	
+do Square Migration for app5
+migrate succcessfully
+do Square Migration for app6
+migrate succcessfully
+
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+5 5 5 -1 6 6 6 -1 
+5 5 5 -1 6 6 6 -1 
+5 5 5 -1 6 6 6 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+APP 6 finished
+ arrive at 1250 finished at 6655
+ waiting time: 3804
+ execution time: 1601
+migratetimes: 3
+migrate_distance: 0
+squaremap: 3*3
+time : 6656
+
+-1 -1 -1 -1 7 7 7 -1 
+-1 -1 -1 -1 7 7 7 -1 
+-1 -1 -1 -1 7 7 7 -1 
+5 5 5 -1 -1 -1 -1 -1 
+5 5 5 -1 -1 -1 -1 -1 
+5 5 5 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 7000
+7	5	
+5	7	
+do Square Migration for app5
+migrate succcessfully
+do Square Migration for app7
+migrate succcessfully
+
+5 5 5 -1 -1 -1 -1 -1 
+5 5 5 -1 -1 -1 -1 -1 
+5 5 5 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 7 7 7 -1 
+-1 -1 -1 -1 7 7 7 -1 
+-1 -1 -1 -1 7 7 7 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 7500
+5	5	
+5	
+do Square Migration for app5
+migrate succcessfully
+
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+5 5 5 -1 7 7 7 -1 
+5 5 5 -1 7 7 7 -1 
+5 5 5 -1 7 7 7 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+APP 5 finished
+ arrive at 1000 finished at 7607
+ waiting time: 3605
+ execution time: 3002
+migratetimes: 5
+migrate_distance: 0
+time : 8000
+7	7	
+7	
+do Square Migration for app7
+migrate succcessfully
+
+-1 -1 -1 -1 7 7 7 -1 
+-1 -1 -1 -1 7 7 7 -1 
+-1 -1 -1 -1 7 7 7 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 8500
+7	7	7	
+7	
+do Square Migration for app7
+migrate succcessfully
+
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 7 7 7 -1 
+-1 -1 -1 -1 7 7 7 -1 
+-1 -1 -1 -1 7 7 7 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 9000
+7	
+7	
+do Square Migration for app7
+migrate succcessfully
+
+-1 -1 -1 -1 7 7 7 -1 
+-1 -1 -1 -1 7 7 7 -1 
+-1 -1 -1 -1 7 7 7 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 9500
+7	7	
+7	
+do Square Migration for app7
+migrate succcessfully
+
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 7 7 7 -1 
+-1 -1 -1 -1 7 7 7 -1 
+-1 -1 -1 -1 7 7 7 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+APP 7 finished
+ arrive at 1500 finished at 9658
+ waiting time: 5156
+ execution time: 3002
+migratetimes: 5
+migrate_distance: 0
+total running time: 9659
+
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+

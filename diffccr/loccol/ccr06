@@ -1,0 +1,112 @@
+/home/chris/simulator/app/ccr/t06.txt
+Output: /home/chris/simulator/Ptrace/mixture4.ptrace
+start running
+withbubblemap: 4*4
+time : 0
+
+1 1 1 -1 -1 -1 -1 -1 
+1 1 1 -1 -1 -1 -1 -1 
+1 1 1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 500
+1	
+1	
+do local Dark Migration for app1
+Hot task:0
+migrate succcessfully
+
+-1 1 1 1 -1 -1 -1 -1 
+1 1 1 -1 -1 -1 -1 -1 
+1 1 1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 2000
+1	1	
+1	
+do local Dark Migration for app1
+Hot task:1
+Hot task:5
+migrate succcessfully
+
+-1 -1 1 1 -1 -1 -1 -1 
+1 1 -1 -1 -1 -1 -1 -1 
+1 1 1 -1 -1 -1 -1 -1 
+1 1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 4500
+1	
+1	
+do local Dark Migration for app1
+Hot task:2
+migrate succcessfully
+
+-1 -1 -1 1 -1 -1 -1 -1 
+1 1 -1 -1 -1 -1 -1 -1 
+1 1 1 -1 -1 -1 -1 -1 
+1 1 -1 1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 7000
+1	
+1	
+do local Dark Migration for app1
+Hot task:3
+migrate succcessfully
+
+-1 -1 1 1 -1 -1 -1 -1 
+-1 1 -1 -1 -1 -1 -1 -1 
+1 1 1 -1 -1 -1 -1 -1 
+1 1 -1 1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 8500
+1	
+1	
+do local Dark Migration for app1
+Hot task:4
+migrate succcessfully
+
+1 -1 1 1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+1 1 1 -1 -1 -1 -1 -1 
+1 1 -1 1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+APP 1 finished
+ arrive at 0 finished at 8603
+ waiting time: 0
+ execution time: 8603
+migratetimes: 5
+migrate_distance: 19
+total running time: 8604
+
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 

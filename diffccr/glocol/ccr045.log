@@ -1,0 +1,159 @@
+/home/chris/simulator/app/ccr/t045.txt
+Output: /home/chris/simulator/Ptrace/mixture3.ptrace
+start running
+time : 0
+
+1 1 1 1 1 1 1 1 
+1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 500
+1	
+1	
+do GlobalColdest Migration for app1
+Hot task:0
+migrate succcessfully
+
+-1 1 1 1 1 1 1 1 
+1 -1 -1 -1 -1 -1 -1 1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 2000
+1	
+1	
+do GlobalColdest Migration for app1
+Hot task:5
+migrate succcessfully
+
+-1 1 1 1 1 -1 1 1 
+1 -1 -1 -1 -1 -1 -1 1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 3000
+1	
+1	
+do GlobalColdest Migration for app1
+Hot task:1
+migrate succcessfully
+
+-1 -1 1 1 1 -1 1 1 
+1 -1 -1 -1 -1 -1 -1 1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+1 -1 -1 -1 -1 -1 -1 1 
+
+time : 6500
+1	
+1	
+do GlobalColdest Migration for app1
+Hot task:6
+migrate succcessfully
+
+1 -1 1 1 1 -1 -1 1 
+1 -1 -1 -1 -1 -1 -1 1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+1 -1 -1 -1 -1 -1 -1 1 
+
+time : 7500
+1	
+1	
+do GlobalColdest Migration for app1
+Hot task:2
+migrate succcessfully
+
+1 -1 -1 1 1 -1 -1 1 
+1 -1 -1 -1 -1 -1 -1 1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+1 -1 -1 -1 -1 -1 -1 1 
+
+time : 9000
+1	
+1	
+do GlobalColdest Migration for app1
+Hot task:7
+migrate succcessfully
+
+1 -1 -1 1 1 -1 -1 -1 
+1 -1 -1 -1 -1 -1 -1 1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+1 1 -1 -1 -1 -1 -1 1 
+
+time : 10500
+1	
+1	
+do GlobalColdest Migration for app1
+Hot task:4
+migrate succcessfully
+
+1 -1 -1 1 -1 -1 -1 -1 
+1 -1 -1 -1 -1 -1 -1 1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+1 1 -1 -1 -1 -1 1 1 
+
+time : 12000
+1	
+1	
+do GlobalColdest Migration for app1
+Hot task:8
+migrate succcessfully
+
+1 -1 -1 1 -1 -1 -1 1 
+-1 -1 -1 -1 -1 -1 -1 1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+1 1 -1 -1 -1 -1 1 1 
+
+APP 1 finished
+ arrive at 0 finished at 12002
+ waiting time: 0
+ execution time: 12002
+migratetimes: 8
+migrate_distance: 74
+total running time: 12003
+
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+

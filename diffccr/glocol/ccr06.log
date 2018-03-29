@@ -1,0 +1,96 @@
+/home/chris/simulator/app/ccr/t06.txt
+Output: /home/chris/simulator/Ptrace/mixture3.ptrace
+start running
+time : 0
+
+1 1 1 1 1 1 1 1 
+1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 500
+1	
+1	
+do GlobalColdest Migration for app1
+Hot task:0
+migrate succcessfully
+
+-1 1 1 1 1 1 1 1 
+1 -1 -1 -1 -1 -1 -1 1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 4000
+1	
+1	
+do GlobalColdest Migration for app1
+Hot task:1
+migrate succcessfully
+
+-1 -1 1 1 1 1 1 1 
+1 -1 -1 -1 -1 -1 -1 1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+1 -1 -1 -1 -1 -1 -1 -1 
+
+time : 8000
+1	1	
+1	
+do GlobalColdest Migration for app1
+Hot task:2
+Hot task:8
+migrate succcessfully
+
+-1 -1 -1 1 1 1 1 1 
+-1 -1 -1 -1 -1 -1 -1 1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+1 -1 -1 -1 -1 -1 1 1 
+
+time : 13000
+1	
+1	
+do GlobalColdest Migration for app1
+Hot task:3
+migrate succcessfully
+
+1 -1 -1 -1 1 1 1 1 
+-1 -1 -1 -1 -1 -1 -1 1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+1 -1 -1 -1 -1 -1 1 1 
+
+APP 1 finished
+ arrive at 0 finished at 15403
+ waiting time: 0
+ execution time: 15403
+migratetimes: 4
+migrate_distance: 43
+total running time: 15404
+
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 
+
